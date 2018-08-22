@@ -42,3 +42,4 @@ Table of Contents
     
     csm/index.rst
     cast-big-data/index.rst
+    csm-test/index.rst
