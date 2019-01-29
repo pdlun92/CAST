@@ -32,8 +32,8 @@ from pprint import pprint
 # Get the node names from xcat
 
 XCATMN        = "127.0.0.1"
-username      = "wsuser"
-password = "cluster_rest"
+username      = "root"
+password = "ppslab"
 
 
 
@@ -42,7 +42,7 @@ create_node      = REST_ENDPOINT + "/nodes/"
 get_all_nodes    = REST_ENDPOINT + "/nodes/"
 get_token = REST_ENDPOINT + "/tokens"
 
-get_node_range    = REST_ENDPOINT + "/nodes/n[1-3]/nodels"
+get_node_range    = REST_ENDPOINT + "/nodes/c650f03p[07-11]/nodels/"
 
 
 #
